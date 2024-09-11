@@ -1,0 +1,71 @@
+#checkBtn{
+    background-color: #1A132F;
+    color: #F7E2E2;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.jmbtron {
+    margin-top: 20px;
+    background-color: #f1ebeb;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.jmb-title, .card-title {
+    text-align: center;
+}
+
+#checkCountry, #worldwideData {
+    background-color: #1A132F;
+    color: #F7E2E2;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.lastUpd {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.death-info {
+    background-color: #FC4F4F;
+}
+
+.conf-info {
+    background-color: #7897AB;
+}
+
+.death-info, .conf-info {
+    color: #19282F;
+    font-weight: bold;
+}
+
+.prev-virus {
+    margin: 10px;
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.waveBg {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

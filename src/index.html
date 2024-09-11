@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>souRONA-19</title>
+  </head>
+  <body>
+      <header>
+          <nav class="navbar justify-content-center p-3">
+              <a href="index.html" class="text-decoration-none">
+                <h1 class="text-black" style="font-size: 40px;">sou<span class="text-danger">RONA-19</span> </h1>
+              </a>
+          </nav>
+      </header>
+
+      <main>
+          <div class="waveBg">
+              <svg viewBox="0 0 500 500"
+                  preserveAspectRatio="xMinYMin meet"
+                  style="z-index:-3;">
+                  
+                  <path d="M0, 30 C100, 130 250,
+                      -170 500, 150 L500, 00 L0, 0 Z"
+                      style="stroke: none;
+                      fill:rgba(7, 11, 51, 0.8);">
+                  </path>
+              </svg>
+          </div>
+
+          <div class="container-fluid pt-lg-5">
+              <heroes-custom></heroes-custom>
+              <div class="p-5 mb-4 jmbtron">
+                <div class="container-fluid py-5 ">
+                  <h1 class="display-5 fw-bold jmb-title">How to Prevent Coronaviruses?</h1>
+                  <br>
+                  <prevention-virus></prevention-virus>
+                </div>
+              </div>
+          
+              <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                  <div class="h-100 p-5 rounded-3" id="checkCountry">
+                    <h2>Let's Check your Country</h2>
+                    <hr>
+                    <search-bar></search-bar>
+                    <report-list></report-list>   
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="h-100 p-5 border rounded-3" id="worldwideData">
+                    <h2>Worldwide Data</h2>
+                    <hr>
+                    <global-list></global-list>
+                  </div>
+                </div>
+              </div>
+            </div>     
+      </main>
+
+      <footer-custom></footer-custom>
+  </body>
+</html>
